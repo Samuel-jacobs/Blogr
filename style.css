@@ -170,6 +170,9 @@ a.f-atrb {
     padding-top: 50px;
     padding-bottom: 30px;
   }
+  img.s1-img {
+    width: 100%;
+  }
   #section2 {
     margin-top: 50%;
     background-size: 120%;
