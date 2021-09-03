@@ -1,0 +1,476 @@
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+	font-size: 16px;
+  font-family: 'Overpass', sans-serif;
+  color: hsl(237, 23%, 32%);
+}
+*{
+  box-sizing: border-box;
+}
+.h-title {
+  color: hsl(208, 49%, 24%);
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.btn {
+  border: 1px solid white;
+  border-radius: 20px;
+  color: white;
+}
+
+.btn1 {
+  background-color: white;
+  color: hsl(13, 100%, 72%);
+}
+.btn1:hover {
+ 
+  color: blue;
+  opacity: 0.5;
+}
+.btn2:hover {
+  background-color: white;
+  color: hsl(13, 100%, 72%);
+}
+.btn1:hover {
+  color: hsl(13, 100%, 72%);
+}
+a {
+  text-decoration: none;
+  color: hsl(207, 13%, 34%);
+}
+a:hover {
+  color: whitesmoke;
+  text-decoration: none;
+  opacity: 0.8;
+}
+#header {
+ 
+  background-image: url(images/bg-pattern-intro.svg),  linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  border-bottom-left-radius: 60px;
+}
+.nav2:hover {
+  opacity: 0.5;
+}
+.bg {
+	transition: 0.5s ease;
+	background-color: transparent;
+}
+.bg.scrolled {
+	background-color: hsl(13, 100%, 72%);
+}
+.cta {
+  padding-top: 30px;
+}
+
+.intro-caption {
+  color: white;
+  text-align: center;
+}
+
+#section1 {
+  padding-top: 100px;
+}
+.s1-title{
+  text-align: center;
+}
+
+
+#section2 {
+  background-image: url(images/bg-pattern-circles.svg);
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-color:  hsl(237, 17%, 21%);
+  height: 100vh; 
+  border-bottom-left-radius: 60px;
+  border-top-right-radius: 60px;
+}
+
+#footer {
+  background-color: hsl(240, 10%, 16%);
+  border-top-right-radius: 60px;
+}
+a.f-link {
+  color: hsl(240, 2%, 79%);
+}
+.attribution {
+  font-size: 11px;
+  padding-top: 20px;
+  text-align: center;
+}
+a.f-atrb {
+  text-decoration: underline;
+}
+@media screen and (max-width: 767px) {
+  #header {
+    height: 80vh;
+    background-size: 2000px;
+    background-position: center;
+  }
+  .intro-caption {
+    padding-top: 25%;
+  }
+  .navbar1 {
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+  }
+  .navbar-nav {
+    background-color: white;
+    text-align: center;
+    padding: 30px 0;
+   
+  }
+  .nav-item {
+    margin-bottom: 20px;
+  }
+  .dropdown-menu {
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    margin: 0 10%;
+  }
+  a.nav-links {
+    color: hsl(207, 13%, 34%);
+  }
+  .line {
+    margin: 0;
+    background-color: rgb(245, 245, 245);
+  }
+  .nav1a {
+    margin-bottom: 15px;
+  }
+  .nav2a {
+    margin-top: 15px;
+  }
+  .nav2 {
+    border-radius: 20px;
+   
+    background-image: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    padding: 10px 25px;
+  }
+  a.nav2 {
+    color: white;
+  }
+  #section1 {
+    padding: 100px 20px 50px 20px;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  .s1-image {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  #section2 {
+    margin-top: 50%;
+    background-size: 120%;
+    background-position: bottom left;
+    padding-bottom: 50px;
+    height: 80vh;
+  }
+  img.s2-img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: -45%;
+  }
+  .s2-text {
+    position: absolute;
+    color: white;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-top: 50%;
+  }
+  #section3 {
+    padding: 50px 20px 50px 20px;
+    text-align: center;
+  }
+  img.s3-img {
+    width: 100%;
+  }
+  #footer {
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .f-title {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  .f-title1 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #header {
+    height: 70vh;
+    background-size: 1500px;
+    background-position: center;
+  }
+  #navbar {
+    padding: 30px 50px;
+  }
+  .line {
+    display: none;
+  }
+  a.nav-links {
+    color: white;
+    padding: 0 20px;
+  }
+  .nav2 {
+    background-color: white;
+    border-radius: 20px;
+    padding: 7px 20px;
+    margin-left: 20px;
+  }
+  a.nav2 {
+    color:hsl(13, 100%, 72%);
+    text-decoration: none;
+  }
+  
+  .intro-caption {
+    padding-top: 15%;
+  }
+  
+  #section1 {
+    position: relative;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  .s1-text {
+    padding-top: 30px;
+  }
+  .s1-image {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+  }
+  
+  #section2 {
+    margin-top: 50%;
+    background-size: 120%;
+    background-position: bottom left;
+    padding-bottom: 50px;
+    
+  }
+  img.s2-img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: -45%;
+  }
+  .s2-text {
+    position: absolute;
+    color: white;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-top: 50%;
+  }
+  #section3 {
+    text-align: center;
+    padding: 50px 100px;
+  }
+  #footer {
+    padding: 50px;
+    color: white;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1100px){
+  #header {
+    height: 450px;
+  }
+  .intro-caption {
+    padding-top: 10%;
+  }
+  #navbar {
+    padding: 30px 100px;
+  }
+  a.nav-links {
+    color: white;
+    padding: 0 20px;
+  }
+  .nav2 {
+    background-color: white;
+    border-radius: 20px;
+    padding: 7px 20px;
+    margin-left: 20px;
+  }
+  a.nav2 {
+    color:hsl(13, 100%, 72%);
+    text-decoration: none;
+  }
+  #navbar {
+    padding: 30px 100px;
+  }
+  #section1 {
+    position: relative;
+  }
+  .s1-image {
+    left: 50%;
+  }
+  .s1-text {
+    position: relative; 
+    padding-top: 50px;
+    padding-bottom: 100px;
+    right: 43%;
+  }
+  .s1-img {
+    position: absolute;
+    height: 110%;
+    width: 100%;
+    left: 30%;
+    top: -20%;
+
+  }
+  #section2 {
+    background-size: 600px;
+    background-position: bottom left;
+    position: relative;
+    padding-left: 100px;
+    padding-right: 100px;
+    box-sizing: border-box;
+    height: 65vh;
+  }
+  .s2-text {
+    padding-top: 12%;
+    color: white;
+  }
+  img.s2-img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: -10%;
+    bottom: -10%;
+  }
+  #section3 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .s3-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+   
+  }
+  .s3-img {
+    position: absolute;
+    height: 100%;
+    left: -40%;
+  }
+  
+  #footer {
+    padding: 50px 150px 40px 50px;
+    color: white;
+  }
+  
+  .f-logo {
+    padding-left: 100px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  #header {
+    height: 450px;
+  }
+  .intro-caption {
+    padding-top: 10%;
+  }
+
+  #navbar {
+    padding: 30px 100px;
+  }
+  a.nav-links {
+    color: white;
+    padding: 0 20px;
+  }
+  .nav2 {
+    background-color: white;
+    border-radius: 20px;
+    padding: 7px 20px;
+    margin-left: 20px;
+  }
+  a.nav2 {
+    color:hsl(13, 100%, 72%);
+    text-decoration: none;
+  }
+  #navbar {
+    padding: 30px 100px;
+  }
+  #section1 {
+    position: relative;
+  }
+  .s1-image {
+    left: 50%;
+  }
+  .s1-text {
+    position: relative; 
+    padding-top: 50px;
+    padding-bottom: 100px;
+    right: 43%;
+  }
+  .s1-img {
+    position: absolute;
+    height: 110%;
+    width: 100%;
+    left: 30%;
+    top: -20%;
+
+  }
+  #section2 {
+    background-size: 600px;
+    background-position: bottom left;
+    position: relative;
+    padding-left: 100px;
+    padding-right: 100px;
+    box-sizing: border-box;
+    height: 65vh;
+  }
+  .s2-text {
+    padding-top: 12%;
+    color: white;
+  }
+  img.s2-img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: -10%;
+    bottom: -10%;
+  }
+  #section3 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .s3-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    right: 10%;
+  }
+  .s3-img {
+    position: absolute;
+    height: 100%;
+    left: -30%;
+  }
+  
+  #footer {
+    padding: 50px 150px 40px 50px;
+    color: white;
+  }
+  
+  .f-logo {
+    padding-left: 100px;
+  }
+}
