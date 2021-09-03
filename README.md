@@ -53,8 +53,8 @@ I'll like to work more on javascript projects. I'll also like to learn about rea
 
 ### Useful resources
 
-- [resource 1](https://www.w3schools.com) - This tutorial website helped me when i got stuck with a css syntax or 
-- [resource 2](https://www.stackoverflow.com) - Thid forum helped me see how to solve problems i came accross while working on the project
+- [w3schools](https://www.w3schools.com) - This tutorial website helped me when i got stuck with a css syntax or 
+- [stackoverflow](https://www.stackoverflow.com) - Thid forum helped me see how to solve problems i came accross while working on the project
 
 ## Author
 
