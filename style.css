@@ -80,6 +80,7 @@ a:hover {
 
 #section1 {
   padding-top: 100px;
+  overflow-x: hidden;
 }
 .s1-title{
   text-align: center;
@@ -165,6 +166,7 @@ a.f-atrb {
     padding: 100px 20px 50px 20px;
     text-align: center;
     margin-bottom: 100px;
+	   overflow-x: hidden;
   }
   .s1-image {
     padding-top: 50px;
@@ -172,6 +174,7 @@ a.f-atrb {
   }
   img.s1-img {
     width: 100%;
+	   overflow-x: hidden;
   }
   #section2 {
     margin-top: 50%;
@@ -253,7 +256,8 @@ a.f-atrb {
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 50px;
-    text-align: center;
+    text-align: center;	
+    overflow-x: hidden;
   }
   .s1-text {
     padding-top: 30px;
@@ -263,7 +267,9 @@ a.f-atrb {
     padding-right: 50px;
     padding-top: 50px;
   }
-  
+  img.s1-image {
+    overflow-x: hidden;
+  }
   #section2 {
     margin-top: 50%;
     background-size: 120%;
@@ -324,6 +330,7 @@ a.f-atrb {
   }
   #section1 {
     position: relative;
+	   overflow-x: hidden;
   }
   .s1-image {
     left: 50%;
@@ -340,7 +347,7 @@ a.f-atrb {
     width: 100%;
     left: 30%;
     top: -20%;
-
+     overflow-x: hidden;
   }
   #section2 {
     background-size: 600px;
@@ -417,6 +424,7 @@ a.f-atrb {
  
   #section1 {
     position: relative;
+	   overflow-x: hidden;
   }
   .s1-image {
     left: 50%;
@@ -433,7 +441,7 @@ a.f-atrb {
     width: 100%;
     left: 30%;
     top: -20%;
-
+     overflow-x: hidden;
   }
   #section2 {
     background-size: 600px;
