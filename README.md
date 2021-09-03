@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repository](https://github.com/Samuel-jacobs/Blogr)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [samuel-jacobs.github.io/Blogr](https://samuel-jacobs.github.io/Blogr/)
 
 ## My process
 
