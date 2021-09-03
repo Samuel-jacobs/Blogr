@@ -8,10 +8,7 @@ body {
   font-family: 'Overpass', sans-serif;
   color: hsl(237, 23%, 32%);
 }
-*{
-  box-sizing: border-box;
-	
-}
+
 .h-title {
   color: hsl(208, 49%, 24%);
   font-family: 'Ubuntu', sans-serif;
